@@ -4,12 +4,14 @@
 
 ADR records the architecture decisions of Sapien: what was decided, why, and the trade-offs.
 
-**Sapien** is a knowledge management ecosystem: write articles, publish them to GitHub as Markdown, search them, check their quality, and render them as web pages. It has these sub-projects:
+Sapien is an automated Knowledge Management ecosystem. It covers multi-platform authoring (Atelier), trusted publication lifecycle control (Atlas), content discovery and curation (Falcon), agentic quality improvement (Merlin) and reader-friendly rendering (Prism).
 
-- **Atelier**: article authoring (create, edit, metadata, templates, review, version).
-- **Atlas**: publish Markdown files to GitHub, retry on failure, deprecate and archive articles.
-- **Falcon**: fast search over content pulled from GitHub, plus the Structured Center Data Pool.
-- **Merlin**: content improvement and inspection (SEO, images, ...), plus AI agents: ARR (suggests updates to related articles when a source document changes) and PCP (chat with AI to draft or edit articles, custom rules, MCP from VS Code).
-- **Prism**: render Markdown on GitHub into Live pages when a PR is created or merged.
+- **Atelier**: Author article on multi-platform with creation, edit, metadata, templates, review and version.
+- **Atlas**: Control lifecycle of publication including publish to repositoies, retry on failure, deprecate and archive articles.
+- **Falcon**: Curate content for a structural data pool and fast search over content.
+- **Merlin**: Inspect content (SEO, images, links) and improve plus AI agents (ARR, PCP)
+  - ARR (suggests updates to related articles when a source document changes);
+  - PCP (chat with AI to draft or edit articles, custom rules, MCP from VS Code).
+- **Prism**: Render structural files (Markdown, XML) on repositories (GitHub, ADO) into Live pages.
 
-2.
+Tech stack: ASP.NET, SQL Server, React, Azure.

@@ -8,10 +8,10 @@ Sapien has 5 sub-projects:
 
 | Project              | Role                                           |
 | -------------------- | ---------------------------------------------- |
-| [Atelier](./Atelier) | Article authoring                              |
-| [Atlas](./Atlas)     | Publish, deprecate, and archive articles       |
-| [Falcon](./Falcon)   | Search and the Structured Center Data Pool     |
-| [Merlin](./Merlin)   | Content improvement, inspection, and AI agents |
-| [Prism](./Prism)     | Render Markdown on GitHub into HTML pages      |
+| [Atelier](./Atelier) | Author article on multi-platform with creation, edit, metadata, templates, review and version |
+| [Atlas](./Atlas)     | Control publication lifecycle that publish to repositoies, retry on failure, deprecate and archive articles. |
+| [Falcon](./Falcon)   | Curate content for a structural data pool and fast search over content. |
+| [Merlin](./Merlin)   | Inspect content (SEO, images, links) and improve plus AI agents (ARR, PCP) |
+| [Prism](./Prism)     | Render structural files (Markdown, XML) on repositories (GitHub, ADO) into Live pages. |
 
 Tech stack: ASP.NET, SQL Server, React, Azure.
